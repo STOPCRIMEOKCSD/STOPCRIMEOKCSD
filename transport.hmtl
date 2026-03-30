@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transports</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    color: #1a1a1a;
+}
+
+.header {
+    background: #0d2a4a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.nav {
+    background: #123a66;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    background: #0b2542;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.section {
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section-header {
+    background: #0d2a4a;
+    color: white;
+    padding: 12px 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.section-content {
+    padding: 15px;
+}
+
+.transport-box {
+    background: #f7f9fc;
+    border-left: 5px solid #0d2a4a;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.notice {
+    background: #f0f2f5;
+    padding: 12px;
+    font-size: 13px;
+    border-left: 4px solid #999;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #0d2a4a;
+    color: white;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Oklahoma County Detention Center©</h1>
+    <p>Pretrial Transport Coordination Division</p>
+    <p>201 N. Shartel Ave, Oklahoma City, OK 73102</p>
+</div>
+
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="programs.html">Programs</a>
+    <a href="case.html">Cases</a>
+    <a href="transport.html">Transports</a>
+    <a href="payments.html">Payments</a>
+    <a href="contact.html">Contacts</a>
+    <a href="agreements.html">Agreements</a>
+</div>
+
+<div class="container">
+
+    <!-- PAGE TITLE -->
+    <div class="section">
+        <div class="section-header">Transports</div>
+        <div class="section-content">
+            <p>Post-Release Transportation Measures & Coordination Procedures</p>
+        </div>
+    </div>
+
+    <!-- OVERVIEW -->
+    <div class="section">
+        <div class="section-header">Transport Overview</div>
+        <div class="section-content">
+            <p>
+                Post-release transportation services are coordinated to ensure safe,
+                compliant, and verifiable movement of individuals from detention
+                facilities to designated residential, treatment, or supervision locations.
+            </p>
+
+            <div class="notice">
+                All transport arrangements are assigned based on custody level, travel distance,
+                and supervision requirements determined by pretrial services.
+            </div>
+        </div>
+    </div>
+
+    <!-- TRANSPORT TYPES -->
+    <div class="section">
+        <div class="section-header">Authorized Transport Methods</div>
+        <div class="section-content">
+
+            <div class="transport-box">
+                <strong>Standard Ground Transport</strong><br>
+                Local or in-state vehicle transfer coordinated by certified personnel.<br>
+                <strong>Estimated Cost:</strong> $125.00 – $450.00
+            </div>
+
+            <div class="transport-box">
+                <strong>Extended Ground Transfer</strong><br>
+                Multi-county or cross-state supervised transport with scheduled stops.<br>
+                <strong>Estimated Cost:</strong> $450.00 – $1,200.00
+            </div>
+
+            <div class="transport-box">
+                <strong>Commercial Flight Coordination</strong><br>
+                Airline-based transport with itinerary monitoring and verification.<br>
+                <strong>Estimated Cost:</strong> $850.00 – $3,500.00
+            </div>
+
+            <div class="transport-box">
+                <strong>Secured Escort Transport</strong><br>
+                High-risk supervised escort with continuous monitoring and custody control.<br>
+                <strong>Estimated Cost:</strong> $1,500.00 – $5,800.00
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PROCEDURES -->
+    <div class="section">
+        <div class="section-header">Transport Procedures</div>
+        <div class="section-content">
+
+            <div>• Identity verification prior to release</div>
+            <div>• Assignment of approved transport method</div>
+            <div>• Scheduling of departure and arrival times</div>
+            <div>• Continuous monitoring (if applicable)</div>
+            <div>• Arrival confirmation and documentation logging</div>
+
+        </div>
+    </div>
+
+    <!-- COST FACTORS -->
+    <div class="section">
+        <div class="section-header">Cost Determination Factors</div>
+        <div class="section-content">
+
+            <div>• Distance and travel duration</div>
+            <div>• Level of supervision required</div>
+            <div>• Mode of transportation</div>
+            <div>• Risk classification of individual</div>
+            <div>• Scheduling urgency</div>
+
+        </div>
+    </div>
+
+    <!-- NOTICE -->
+    <div class="section">
+        <div class="section-header">Official Notice</div>
+        <div class="section-content">
+
+            <div class="notice">
+                Transport assignments and costs are determined by pretrial services and
+                are subject to change based on operational requirements. All transport
+                activity must comply with assigned supervision conditions and reporting protocols.
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 Oklahoma County Pretrial Services | Official Use Only
+</div>
+
+</body>
+</html>
