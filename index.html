@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pretrial Services Portal</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    color: #1a1a1a;
+}
+
+/* HEADER */
+.header {
+    background: #0d2a4a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+/* NAV */
+.nav {
+    background: #123a66;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    background: #0b2542;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* SECTION */
+.section {
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section-header {
+    background: #0d2a4a;
+    color: white;
+    padding: 12px 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.section-content {
+    padding: 15px;
+}
+
+/* INFO GRID */
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-block {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* LIST STYLE */
+.info-line {
+    margin: 6px 0;
+}
+
+/* CARD */
+.card {
+    background: #f7f9fc;
+    padding: 15px;
+    border-left: 5px solid #0d2a4a;
+    margin-bottom: 10px;
+}
+
+/* NOTICE */
+.notice {
+    background: #f0f2f5;
+    padding: 12px;
+    font-size: 13px;
+    border-left: 4px solid #999;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #0d2a4a;
+    color: white;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Oklahoma County Sheriff's Office</h1>
+    <p>State Pretrial Services Department</p>
+    <p>201 N. Shartel Ave, Oklahoma City, OK 73102</p>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="programs.html">Programs</a>
+    <a href="case.html">Case File</a>
+    <a href="transport.html">Transport</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<!-- MAIN -->
+<div class="container">
+
+    <!-- INTRO -->
+    <div class="section">
+        <div class="section-header">Pretrial Services Information</div>
+        <div class="section-content">
+            <p>
+                This portal provides informational access to pretrial services programs,
+                detainee case file summaries, and transport coordination details.
+            </p>
+        </div>
+    </div>
+
+    <!-- PROGRAM OVERVIEW -->
+    <div class="section">
+        <div class="section-header">Available Programs</div>
+        <div class="section-content">
+
+            <div class="card">
+                <strong>Pretrial Release</strong>
+                <p>Supervised release prior to court proceedings.</p>
+            </div>
+
+            <div class="card">
+                <strong>Electronic Monitoring</strong>
+                <p>GPS-based compliance monitoring.</p>
+            </div>
+
+            <div class="card">
+                <strong>Substance Monitoring</strong>
+                <p>Scheduled or random testing requirements.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CASE ACCESS INFO (VIEW ONLY) -->
+    <div class="section">
+        <div class="section-header">Case File Access</div>
+        <div class="section-content">
+
+            <p>
+                Individual case file information is made available upon assignment and review.
+                Please refer to your issued documentation for access instructions.
+            </p>
+
+            <div class="notice">
+                This system does not allow direct public editing or submission. All records are maintained by the assigned pretrial officer.
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 Oklahoma County Pretrial Services | Official Use Only
+</div>
+
+</body>
+</html>
