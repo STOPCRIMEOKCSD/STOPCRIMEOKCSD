@@ -6,239 +6,124 @@
 <title>Cases</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #eef1f5;
-    color: #1a1a1a;
-}
-
-.header {
-    background: #0d2a4a;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-.header p {
-    margin: 5px 0;
-    font-size: 13px;
-}
-
-.nav {
-    background: #123a66;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.nav a {
-    color: white;
-    padding: 12px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.nav a:hover {
-    background: #0b2542;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 20px auto;
-    padding: 10px;
-}
-
-.section {
-    background: white;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.section-header {
-    background: #0d2a4a;
-    color: white;
-    padding: 12px 15px;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.section-content {
-    padding: 15px;
-}
-
-.info-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.info-block {
-    flex: 1;
-    min-width: 250px;
-}
-
-.info-line {
-    margin: 6px 0;
-}
-
-.badge {
-    display: inline-block;
-    padding: 6px 10px;
-    background: #0d2a4a;
-    color: white;
-    font-size: 12px;
-    border-radius: 3px;
-    margin-top: 5px;
-}
-
-.cost-box {
-    background: #f7f9fc;
-    border-left: 5px solid #0d2a4a;
-    padding: 12px;
-    margin-bottom: 10px;
-}
-
-.notice {
-    background: #f0f2f5;
-    padding: 12px;
-    font-size: 13px;
-    border-left: 4px solid #999;
-    margin-top: 10px;
-}
-
-.footer {
-    text-align: center;
-    padding: 15px;
-    background: #0d2a4a;
-    color: white;
-    font-size: 12px;
-}
+body{margin:0;font-family:Arial;background:#eef1f5;color:#1a1a1a;}
+.header{background:#0d2a4a;color:white;text-align:center;padding:20px;}
+.nav{background:#123a66;display:flex;justify-content:center;flex-wrap:wrap;}
+.nav a{color:white;padding:12px 18px;text-decoration:none;font-weight:bold;font-size:14px;}
+.nav a:hover{background:#0b2542;}
+.container{max-width:1000px;margin:20px auto;padding:10px;}
+.section{background:white;margin-bottom:15px;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+.section-header{background:#0d2a4a;color:white;padding:12px;font-weight:bold;}
+.section-content{padding:12px;font-size:14px;line-height:1.4;}
+.box{background:#f7f9fc;border-left:5px solid #0d2a4a;padding:10px;margin-bottom:10px;}
+.footer{text-align:center;background:#0d2a4a;color:white;padding:12px;font-size:12px;}
 </style>
 </head>
 
 <body>
 
 <div class="header">
-    <h1>Oklahoma County Detention Center©</h1>
-    <p>Pretrial Services Division</p>
-    <p>201 N. Shartel Ave, Oklahoma City, OK 73102</p>
+<h1>Oklahoma County Pretrial Services</h1>
+<p>Cases — PAEFOR Profile (Pretrial Applicant Eligibility & Financial Obligations Record)</p>
 </div>
 
 <div class="nav">
-    <a href="index.html">Home</a>
-    <a href="programs.html">Programs</a>
-    <a href="case.html">Cases</a>
-    <a href="transport.html">Transports</a>
-    <a href="payments.html">Payments</a>
-    <a href="contact.html">Contacts</a>
-    <a href="agreements.html">Agreements</a>
+<a href="index.html">Home</a>
+<a href="programs.html">Programs</a>
+<a href="cases.html">Cases</a>
+<a href="transports.html">Transports</a>
+<a href="payments.html">Payments</a>
+<a href="contacts.html">Contacts</a>
+<a href="agreements.html">Agreements</a>
 </div>
 
 <div class="container">
 
-    <!-- PAGE TITLE -->
-    <div class="section">
-        <div class="section-header">Cases</div>
-        <div class="section-content">
-            <p>Pretrial Applicant Eligibility & Financial Obligations Profile (PAEFOR)</p>
-        </div>
-    </div>
+<div class="section">
+<div class="section-header">PAEFOR Profile Overview</div>
+<div class="section-content">
+The PAEFOR Profile outlines detainee eligibility, supervision requirements, and financial obligations associated with pretrial release and program placement.
+</div>
+</div>
 
-    <!-- APPLICANT IDENTIFICATION -->
-    <div class="section">
-        <div class="section-header">Applicant Identification</div>
-        <div class="section-content info-grid">
+<div class="section">
+<div class="section-header">Eligibility & Requirements</div>
+<div class="section-content">
 
-            <div class="info-block">
-                <div class="info-line"><strong>Full Name:</strong> John A. Doe</div>
-                <div class="info-line"><strong>Date of Birth:</strong> 01/01/1990</div>
-                <div class="info-line"><strong>Booking ID:</strong> OKC-458221</div>
-            </div>
+<div class="box">
+• Must meet pretrial release eligibility criteria<br>
+• Subject to supervision and compliance monitoring<br>
+• Program assignment based on case evaluation<br>
+• Identity verification required for all financial actions
+</div>
 
-            <div class="info-block">
-                <div class="info-line"><strong>Case Number:</strong> CF-2026-1022</div>
-                <div class="info-line"><strong>Status:</strong> Pretrial Hold</div>
-                <div class="badge">Eligibility Review Pending</div>
-            </div>
+<div class="box">
+• Guarantor assumes financial responsibility<br>
+• Payment completion required prior to release<br>
+• Casefile credentials must be accurate and verified
+</div>
 
-        </div>
-    </div>
+</div>
+</div>
 
-    <!-- CHARGES -->
-    <div class="section">
-        <div class="section-header">Charges</div>
-        <div class="section-content">
-            <div class="info-line">• Possession of Controlled Substance</div>
-            <div class="info-line">• Driving Under the Influence</div>
-        </div>
-    </div>
+<div class="section">
+<div class="section-header">Example Casefiles (Reference Only)</div>
+<div class="section-content">
 
-    <!-- PROGRAM ELIGIBILITY -->
-    <div class="section">
-        <div class="section-header">Program Eligibility</div>
-        <div class="section-content">
+<div class="box">
+<strong>Casefile #OKC-24031</strong><br>
+Client: D. Harris<br>
+Charge Type: DUI / Traffic Offense<br>
+Assigned Program: SOBER-STEP®™<br>
+Supervision Level: Moderate<br>
+Financial Requirement: $845.00<br>
+Status: Eligible for Release Pending Payment
+</div>
 
-            <div class="cost-box">
-                Recommended: PASS®™ Program (Outpatient)
-            </div>
+<div class="box">
+<strong>Casefile #OKC-19844</strong><br>
+Client: R. Thompson<br>
+Charge Type: Domestic Disturbance<br>
+Assigned Program: SAFER®™<br>
+Supervision Level: Structured<br>
+Financial Requirement: $1,017.00<br>
+Status: Conditional Release Approval
+</div>
 
-            <div class="cost-box">
-                Secondary: SOBER-STEP®™ Program
-            </div>
+<div class="box">
+<strong>Casefile #OKC-30122</strong><br>
+Client: M. Alvarez<br>
+Charge Type: Substance Possession<br>
+Assigned Program: PASS®™<br>
+Supervision Level: High Monitoring<br>
+Financial Requirement: $2,028.00<br>
+Status: Requires Intake Processing
+</div>
 
-        </div>
-    </div>
+<div class="box">
+<strong>Casefile #OKC-27519</strong><br>
+Client: T. Johnson<br>
+Charge Type: Repeat Offense / Assault<br>
+Assigned Program: RARE-COVA©™<br>
+Supervision Level: Intensive<br>
+Financial Requirement: $1,599.00<br>
+Status: Under Review for Eligibility
+</div>
 
-    <!-- FINANCIAL OBLIGATIONS -->
-    <div class="section">
-        <div class="section-header">Financial Obligations</div>
-        <div class="section-content">
+</div>
+</div>
 
-            <div class="cost-box">PASS®™: $2,028.00</div>
-            <div class="cost-box">SOBER-STEP®™: $845.00</div>
-            <div class="cost-box">Processing Fee: $150.00</div>
-
-            <div class="cost-box">
-                <strong>Total Estimated Obligation: $3,023.00</strong>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- REQUIREMENTS -->
-    <div class="section">
-        <div class="section-header">Requirements</div>
-        <div class="section-content">
-            <div class="info-line">• Weekly check-ins</div>
-            <div class="info-line">• Random drug testing</div>
-            <div class="info-line">• Program compliance required</div>
-            <div class="info-line">• Mandatory court appearance</div>
-        </div>
-    </div>
-
-    <!-- NOTICE -->
-    <div class="section">
-        <div class="section-header">Official Notice</div>
-        <div class="section-content">
-            <div class="notice">
-                This PAEFOR Profile is an informational summary of eligibility, financial obligations, and program requirements. Final determinations are made by the assigned pretrial officer and court authority.
-            </div>
-        </div>
-    </div>
+<div class="section">
+<div class="section-header">Important Notice</div>
+<div class="section-content">
+All casefiles displayed are examples for informational purposes only. Actual case determinations are conducted by authorized pretrial officers and subject to court authority.
+</div>
+</div>
 
 </div>
 
 <div class="footer">
-    © 2026 Oklahoma County Pretrial Services | Official Use Only
+© 2026 Oklahoma County Pretrial Services
 </div>
 
 </body>
