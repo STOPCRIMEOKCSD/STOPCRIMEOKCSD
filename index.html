@@ -3,162 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
+<title>Pretrial Services | Home</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #eef1f5;
-    color: #1a1a1a;
+:root {
+    --primary:#0d2a4a;
+    --secondary:#123a66;
+    --light:#eef1f5;
 }
 
-.header {
-    background: #0d2a4a;
-    color: white;
-    text-align: center;
-    padding: 20px;
+body {margin:0;font-family:Arial;background:var(--light);color:#1a1a1a;}
+
+.header {background:var(--primary);color:white;text-align:center;padding:20px;}
+.header h1 {margin:0;font-size:26px;}
+.header p {margin:5px 0;font-size:13px;}
+
+.nav {background:var(--secondary);display:flex;justify-content:center;flex-wrap:wrap;}
+.nav a {color:white;padding:12px 18px;text-decoration:none;font-weight:bold;font-size:14px;}
+.nav a:hover {background:#0b2542;}
+
+.container {max-width:1000px;margin:20px auto;padding:10px;}
+
+.grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:10px;
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 24px;
+.card {
+    background:white;
+    border-left:5px solid var(--primary);
+    padding:12px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
 }
 
-.header p {
-    margin: 5px 0;
-    font-size: 13px;
-}
+.section {background:white;margin-bottom:15px;border-radius:5px;}
+.section-header {background:var(--primary);color:white;padding:12px;font-weight:bold;}
+.section-content {padding:12px;font-size:14px;line-height:1.45;}
 
-.nav {
-    background: #123a66;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.nav a {
-    color: white;
-    padding: 12px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.nav a:hover {
-    background: #0b2542;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 10px;
-}
-
-.section {
-    background: white;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.section-header {
-    background: #0d2a4a;
-    color: white;
-    padding: 12px 15px;
-    font-weight: bold;
-}
-
-.section-content {
-    padding: 15px;
-}
-
-.notice {
-    background: #f0f2f5;
-    padding: 12px;
-    border-left: 4px solid #999;
-    font-size: 13px;
-}
-
-.footer {
-    text-align: center;
-    padding: 15px;
-    background: #0d2a4a;
-    color: white;
-    font-size: 12px;
-}
+.footer {text-align:center;background:var(--primary);color:white;padding:12px;font-size:12px;}
 </style>
 </head>
 
 <body>
 
-<!-- HEADER -->
 <div class="header">
-    <h1>Oklahoma County Pretrial Services</h1>
-    <p>Pre-Conviction Release & Supervision Coordination Portal</p>
-    <p>201 N. Shartel Ave, Oklahoma City, OK 73102</p>
+<h1>Oklahoma County Pretrial Services</h1>
+<p>Pre-Conviction Release, Monitoring & Case Coordination Portal</p>
+<p>201 N. Shartel Ave · Oklahoma City, OK</p>
 </div>
 
-<!-- NAVIGATION -->
 <div class="nav">
-    <a href="index.html">Home</a>
-    <a href="programs.html">Programs</a>
-    <a href="cases.html">Cases</a>
-    <a href="transports.html">Transports</a>
-    <a href="payments.html">Payments</a>
-    <a href="contacts.html">Contacts</a>
-    <a href="agreements.html">Agreements</a>
+<a href="index.html">Home</a>
+<a href="programs.html">Programs</a>
+<a href="cases.html">Cases</a>
+<a href="transports.html">Transports</a>
+<a href="payments.html">Payments</a>
+<a href="contacts.html">Contacts</a>
+<a href="agreements.html">Agreements</a>
 </div>
 
-<!-- MAIN CONTENT -->
 <div class="container">
 
-    <div class="section">
-        <div class="section-header">Home</div>
-        <div class="section-content">
-            This portal provides official information regarding pretrial program participation,
-            detainee case status, supervision requirements, transportation coordination,
-            and financial processing procedures.
-        </div>
-    </div>
+<div class="section">
+<div class="section-header">Portal Overview</div>
+<div class="section-content">
+This portal provides structured information regarding pretrial release eligibility, program participation, case obligations, financial processing, and post-release coordination.
+</div>
+</div>
 
-    <div class="section">
-        <div class="section-header">Pretrial Services Overview</div>
-        <div class="section-content">
-            Oklahoma County Pretrial Services coordinates the structured release and monitoring
-            of eligible detainees prior to court proceedings. Services include program assignment,
-            compliance supervision, and administrative case tracking.
-        </div>
-    </div>
+<div class="grid">
 
-    <div class="section">
-        <div class="section-header">Portal Usage</div>
-        <div class="section-content">
-            • View authorized pretrial programs<br>
-            • Review case eligibility and financial obligations<br>
-            • Understand transportation procedures<br>
-            • Access approved payment methods<br>
-            • Contact assigned pretrial personnel
-        </div>
-    </div>
+<div class="card">
+<strong>Programs</strong><br>
+Court-aligned supervision and rehabilitation programs.
+</div>
 
-    <div class="section">
-        <div class="section-header">Notice</div>
-        <div class="section-content">
-            <div class="notice">
-                This website is informational only. All case decisions, financial approvals,
-                and release actions are conducted by authorized pretrial officers and
-                county personnel.
-            </div>
-        </div>
-    </div>
+<div class="card">
+<strong>Cases</strong><br>
+Eligibility profiles, requirements, and financial obligations.
+</div>
+
+<div class="card">
+<strong>Transports</strong><br>
+Post-release relocation and intake routing procedures.
+</div>
+
+<div class="card">
+<strong>Payments</strong><br>
+Approved payment methods and financial compliance standards.
+</div>
 
 </div>
 
-<!-- FOOTER -->
+<div class="section">
+<div class="section-header">Operational Notice</div>
+<div class="section-content">
+All actions are conducted under pretrial authority. Final determinations are subject to judicial and administrative review.
+</div>
+</div>
+
+</div>
+
 <div class="footer">
-    © 2026 Oklahoma County Pretrial Services | Official Use Only
+© 2026 Oklahoma County Pretrial Services
 </div>
 
 </body>
